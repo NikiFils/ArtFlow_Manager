@@ -1,12 +1,32 @@
+# Python
 __pycache__/
 *.py[cod]
+*$py.class
+*.so
+.Python
+
+# Виртуальные окружения
+env/
+venv/
+.venv/
+.venv_build/
+ENV/
+
+# PyInstaller
 build/
 dist/
 *.spec
-venv/
-.venv/
+
+# Файлы, создаваемые программой
 settings.json
 last_operation.json
 *.log
+
+# IDE
 .vscode/
 .idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
